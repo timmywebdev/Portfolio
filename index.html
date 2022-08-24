@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timothy Nguyen</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet"
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,34 +20,39 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="images/logo.jpg" alt="">
+        <label for="trigger">
+        <input type="checkbox" class="trigger" id="trigger">
+        <!-- <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div> -->
+        <!-- 3 spans for each hamburger line -->
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
         </div>
-        <button class="nav-toggle">
-            <span class="hamburger"></span>
-        </button>
+        <span class="menu">MENU</span>
         <nav class="nav">
-            <ul class="nav_sublist">
-                <li class="nav_subitem"><a href="#home" class="nav_link">Home</a></li>
-                <li class="nav_subitem"><a href="#contact" class="nav_link">Contact</a></li>
+            <ul>
                 <li class="nav_subitem"><a href="#about-me" class="nav_link">About Me</a></li>
-                <li class="nav_subitem"><a href="#experience" class="nav_link">Experience</a></li>
+                <li class="nav_subitem"><a href="#projects" class="nav_link">Projects</a></li>
+                <li class="nav_subitem"><a href="#contact" class="nav_link">Contact</a></li>
                 <li class="nav_subitem"><a href="#blog" class="nav_link">Blog</a></li>
             </ul>
         </nav>
+        </label>
     </header>
 
     <!-- Landing Intro -->
-    <section class=""intro" id"home">
+    <section class="intro" id="home">
         <p class="section__pretitle section_pretitle--intro">
             Hi, my name is
         </p>
         <h1 class="section__title section__title--intro">
              Timothy Nguyen
         </h1>
-        <p class=""section__subtitle section__subtitle--intro">Junior Software Developer</p>
-        <p class=""section__body section__body--intro">I am studying a Diploma of Information Technology at CoderAcademy. </p>
-        <img src="images/"img" alt="a picture of me smiling">
+        <p class="section__subtitle section__subtitle--intro">Junior Software Developer</p>
+        <img src= "images/Mugshot square.jpg" alt="a picture of me smiling" class="intro__img">
     </section>
 
     <!-- Social Links -->
