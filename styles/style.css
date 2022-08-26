@@ -112,16 +112,18 @@ header {
     gap: 1rem;
     align-items: center;
     margin: 1rem;
-  }
+}
+
 #nav-desktop .nav-desktop_list li {
     list-style: none;
-  }
+}
+
 #nav-desktop .nav-desktop_list li a {
     font-family: var(--ff-secondary);
     text-decoration: none;
     color: var(--color-light);
     font-weight: var(--fw-bold);
-    font-size: 1rem;
+    font-size: var(--fs-h3);
   }
 
 
@@ -172,11 +174,6 @@ header {
     opacity: 0;
 }
 
-
-.menu {
-    cursor: pointer;
-}
-
 /* Inside Hamburger Menu */
 #nav-mobile {
     background: var(--color-accent);
@@ -186,7 +183,6 @@ header {
     width: 100vw;
     padding: 30px 70px;
     margin-top: 30px;
-    position: absolute;
     right: -100vw;
     box-sizing: border-box;
     transition: right 0.3s ease-in-out;
@@ -209,7 +205,6 @@ header {
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
-    
 }
 
 .nav-mobile_subitem {

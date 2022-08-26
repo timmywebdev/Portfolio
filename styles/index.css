@@ -40,10 +40,10 @@ h3 {font-size: var(--fs-h3)};
 }
 
 .section_pretitle-intro {
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-reg);
 }
 
-.section_subtitle--intro {
+.section_subtitle-intro {
     font-weight: var(--fw-reg);
 }
 
@@ -56,7 +56,7 @@ h3 {font-size: var(--fs-h3)};
     font-size: var(--fs-h3);
 }
 
-.section_subtitle--intro {
+.section_subtitle-intro {
     background: var(--color-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);

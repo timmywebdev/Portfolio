@@ -1,0 +1,28 @@
+img {max-width: 250px;}
+
+.projects_container-main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7vw;
+}
+
+.projects_container {
+    border-radius: 0.2rem;
+    color: var(--clr-secondary);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+    flex-wrap: nowrap;
+}
+
+.projects_container-article {
+    width: 100%;
+    border: 1px;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--color-accent);
+    margin: 1rem;
+}
