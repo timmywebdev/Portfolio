@@ -1,0 +1,258 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Fix Overflow */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Variables */
+
+:root {
+    /* Font Family */
+    --ff-primary: 'Karla', sans-serif;
+    --ff-secondary: 'Karla', monospace;
+
+    /* Font Weights */
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    /* Colors */
+    --color-light: rgb(255, 255, 255);
+    --color-dark: #000000;
+    --color-accent: #1e014c;
+    --color-grey: rgb(41, 41, 41) ;
+    
+    /* Font Sizes */
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    /* Box Shadow */
+    --bs: 0.5em 0.5em 3em rgba(116, 12, 235, 0.25);
+}
+
+/* Media Query to auto convert fonts at ipad */
+@media (min-width: 810px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+
+/* General Styles */
+
+body {
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 2em;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgb(29, 23, 23);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#logo {
+    height: 5vh;
+    border-radius: 50%;
+}
+
+/* Nav for Desktop Mode */
+#nav-desktop a {
+    display: flex;
+    align-items: row;
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5rem;
+}
+
+#nav-desktop {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+#nav-desktop .nav-desktop_list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin: 1rem;
+  }
+#nav-desktop .nav-desktop_list li {
+    list-style: none;
+  }
+#nav-desktop .nav-desktop_list li a {
+    font-family: var(--ff-secondary);
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+  }
+
+
+
+/* Hamburger */
+.hamburger body {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-secondary);
+    padding: 20px;
+}
+
+.trigger {
+    display: none;
+}
+
+.hamburger {
+    cursor: pointer;
+    margin-right: 10px;
+    float: left;
+}
+
+/* Hamburger Lines */
+.hamburger span {
+        height: 3px;
+        width: 30px;
+        background: var(--color-light);
+        display: block;
+        margin-bottom: 5px;
+        position: relative;
+        transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.trigger:checked ~ #nav-mobile {
+    right: 0;
+}
+
+.trigger:checked ~ .hamburger span:first-child {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.trigger:checked ~ .hamburger span:last-child {
+    transform: rotate(-45deg);
+    top: -8px;
+}
+
+.trigger:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+
+
+.menu {
+    cursor: pointer;
+}
+
+/* Inside Hamburger Menu */
+#nav-mobile {
+    background: var(--color-accent);
+    opacity: 90%;
+    position: fixed;
+    color: var(--color-light);
+    width: 100vw;
+    padding: 30px 70px;
+    margin-top: 30px;
+    position: absolute;
+    right: -100vw;
+    box-sizing: border-box;
+    transition: right 0.3s ease-in-out;
+    z-index: 998;
+}
+
+.nav-mobile_list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-mobile_link {
+    color: inherit;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h3);
+    text-decoration: none;
+    
+}
+
+.nav-mobile_subitem {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+/* Display Hamburger at iPad size and under */
+@media (min-width: 1000px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+/* Hide Desktop Nav at 999px and under */
+@media (max-width: 999px) {
+    #nav-desktop {
+        display: none;
+    }
+}
+
+
+/* Socials */
+#social-links {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0.1rem 0;
+    opacity: 70%;
+}
+
+#social-links div div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    flex-direction: column;
+    align-items: center;
+}
