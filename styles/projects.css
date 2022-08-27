@@ -1,28 +1,83 @@
-img {max-width: 250px;}
+img {max-width: 250px;
+}
 
-.projects_container-main {
+.projects_img {
+    display: flex;
+    justify-content: center;
+}
+
+#projects_main h1 {
+    padding-left: 7vw;
+}
+
+.projects_text {
+    display: flex;
+    justify-content: center;
+}
+
+
+#projects_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.projects_article {
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: var(--color-accent-t);
+    border-color: var(--color-light);
+    border-width: 10px;
+    border-radius: 5%;
+    box-shadow: var(--bs-around);
+}
+
+.button_projects {
+    background-color: #ffffff; 
+    color: black;
+    padding: 0.1rem, 1rem;
+    border-radius: 20%;
+    border: 2px solid var(--color-accent);
+    transition-duration: 0.4s;
+    float: left;
+    font-family: var(--ff-secondary);
+    text-decoration: none;
+}
+
+.buttons_projects{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 7vw;
 }
 
-.projects_container {
-    border-radius: 0.2rem;
-    color: var(--clr-secondary);
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 75vw;
-    flex-wrap: nowrap;
+.button_projects:hover {
+    background-color: #564caf;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.projects_container-article {
-    width: 100%;
-    border: 1px;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: var(--color-accent);
-    margin: 1rem;
+@media screen and (min-width: 820px) {
+    #projects_container {
+        display: flex;
+        flex-direction: row;
+        flex: wrap;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .projects_article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 30%;
+        margin: 1rem;     
+    }
+    
+}
+
+@media (max-width: 819px) {
+    .projects_article { 
+        margin: 1rem;
+    }
+    #projects_container :nth-child(4) {order:-1;};
 }

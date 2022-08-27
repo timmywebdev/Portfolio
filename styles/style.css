@@ -27,9 +27,15 @@ html, body {
     /* Colors */
     --color-light: rgb(255, 255, 255);
     --color-dark: #000000;
-    --color-accent: #1e014c;
+    /* --color-accent: #1e014c; */
+    --color-accent: linear-gradient(135deg , rgb(38, 0, 255), #6200ff, rgb(255, 0, 255));
     --color-grey: rgb(41, 41, 41) ;
     
+    /* Transparent Colors */
+    --color-dark-t: #0000007a;
+    --color-accent-t: #3800587c; 
+    --color-grey-t: rgba(41, 41, 41, 0.527);
+
     /* Font Sizes */
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -37,7 +43,13 @@ html, body {
     --fs-body: 1rem;
 
     /* Box Shadow */
-    --bs: 0.5em 0.5em 3em rgba(116, 12, 235, 0.25);
+    --bs-light: 0.5em 0.5em 3em rgba(255, 255, 255, 0.25);
+    --bs-accent: 0.5em 0.5em 3em rgba(30, 1, 76, 0.25);
+    --bs-min: 0.5em 0.5em 0.5em rgb(174, 0, 255);
+    --bs-around: 0.5em 0.5em 0.5em rgb(174, 0, 255), 
+                -0.5em -0.5em 0.5em rgb(113, 4, 255),
+                -0.5em 0.5em 0.5em rgb(140, 0, 255),
+                0.5em -0.5em 0.5em rgb(140, 0, 255);
 }
 
 /* Media Query to auto convert fonts at ipad */

@@ -14,85 +14,95 @@
 
 </head>
 <body>
-    <header>
-        <a href="index.html"><img id="logo" src="images/logo.png" alt=""></a>
-        
-        <!-- Navbar for Mobile -->
-        <label for="trigger">
-            <input type="checkbox" class="trigger" id="trigger">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <!-- <span class="menu">MENU</span> -->
-            <nav id="nav-mobile">
-                <ul class="nav-mobile_list">
-                    <li class="nav-mobile_subitem"><a href="/about.html" class="nav-mobile_link">About Me</a></li>
-                    <li class="nav-mobile_subitem"><a href="/projects.html" class="nav-mobile_link">Projects</a></li>
-                    <li class="nav-mobile_subitem"><a href="/experience.html" class="nav-mobile_link">Experience</a></li>
-                    <li class="nav-mobile_subitem"><a href="/contact.html" class="nav-mobile_link">Contact</a></li>
-                    <li class="nav-mobile_subitem"><a href="/blog.html" class="nav-mobile_link">Blog</a></li>
-                </ul>
-            </nav>
-        </label>
-        <!-- Navbar for Desktop -->
-        <nav id="nav-desktop">
-            <ul class="nav-desktop_list">
-                <li class="nav-desktop_subitem"><a href="/about.html" class="nav-desktop_link">About Me</a></li>
-                <li class="nav-desktop_subitem"><a href="/projects.html" class="nav-desktop_link">Projects</a></li>
-                <li class="nav-desktop_subitem"><a href="/experience.html" class="nav-desktop_link">Experience</a></li>
-                <li class="nav-desktop_subitem"><a href="/contact.html" class="nav-desktop_link">Contact</a></li>
-                <li class="nav-desktop_subitem"><a href="/blog.html" class="nav-desktop_link">Blog</a></li>
+  <header>
+    <a href="index.html"><img id="logo" src="images/logo.png" alt=""></a>
+    
+    <!-- Navbar for Mobile -->
+    <label for="trigger">
+        <input type="checkbox" class="trigger" id="trigger">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav-mobile">
+            <ul class="nav-mobile_list">
+                <li class="nav-mobile_subitem"><a href="/about.html" class="nav-mobile_link">About Me</a></li>
+                <li class="nav-mobile_subitem"><a href="/projects.html" class="nav-mobile_link">Projects</a></li>
+                <li class="nav-mobile_subitem"><a href="/contact.html" class="nav-mobile_link">Contact</a></li>
+                <li class="nav-mobile_subitem"><a href="/blog.html" class="nav-mobile_link">Blog</a></li>
             </ul>
         </nav>
+    </label>
+    <!-- Navbar for Desktop -->
+    <nav id="nav-desktop">
+        <ul class="nav-desktop_list">
+            <li class="nav-desktop_subitem"><a href="/about.html" class="nav-desktop_link">About Me</a></li>
+            <li class="nav-desktop_subitem"><a href="/projects.html" class="nav-desktop_link">Projects</a></li>
+            <li class="nav-desktop_subitem"><a href="/contact.html" class="nav-desktop_link">Contact</a></li>
+            <li class="nav-desktop_subitem"><a href="/blog.html" class="nav-desktop_link">Blog</a></li>
+        </ul>
+    </nav>
 
-    </header>
+  </header>
 
-    <main class="projects_container-main">
-        <div class="projects_container">
-          <article class="projects_container-article">
-            <header>
-              <img src="../images/projects1.jpg"alt="app screenshot"/>
-              <h2>Project1</h2>
-            </header>
-
-            <div class="project_text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, sunt?</p>
+    <main id="projects_main">
+      <h1>Projects</h1>
+      <article id="projects_container">
+          <div class="projects_article">
+              <div class="projects_title">
+                  <h3>Project 1</h3>
+              </div>
+              <div class="projects_img">
+                <img src="/images/projects1.jpg" alt="project1">
+              </div>
+              <div class="buttons_projects">
+                <button class="button_projects"><a href="">Repo</a></button>
+                <button class="button_projects"><a href="">Demo</a></button>
+              </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum inventore corporis necessitatibus, et, beatae totam nam dignissimos recusandae laborum minima nisi reprehenderit unde iure corrupti! Possimus provident corporis nam!</p>
+          </div>
+          <div class="projects_article">
+              <div class="projects_title">
+                  <h3>Project 2</h3>
+              </div>
+              <div class="projects_img">
+                <img src="/images/projects2.jpg" alt="project2">
+              </div>
+              <div class="buttons_projects">
+                <button class="button_projects"><a href="">Repo</a></button>
+                <button class="button_projects"><a href="">Demo</a></button>
+              </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem modi delectus earum ipsam ullam! Ipsam alias error voluptatibus facilis illum iure porro qui veritatis labore autem quia, libero quasi voluptatum?</p>
+          </div>
+          <div class="projects_article">
+              <div class="projects_title">
+                  <h3>Project 3</h3>
+              </div>
+              <div class="projects_img">
+                <img src="/images/projects3.jpg" alt="project3">
+              </div>
+              <div class="buttons_projects">
+                <button class="button_projects"><a href="">Repo</a></button>
+                <button class="button_projects"><a href="">Demo</a></button>
+              </div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit libero a odit dignissimos eius unde dolorem atque labore minus nemo fugit, reprehenderit dolores harum consectetur ratione aliquid iusto velit nulla.</p>
+          </div>
+          <div class="projects_article">
+            <div class="projects_title">
+                <h3>Current Project</h3>
             </div>
-          </article>
-
-          <article class="projects_container-article">
-            <header>
-                <img src="../images/projects2.jpg"alt="app screenshot"/>
-              <h2>Project2</h2>
-            </header>
-            <div class="projects_text">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, dolore!</p>
+            <div class="projects_img">
+              <img src="/images/projects4.jpg" alt="project4">
             </div>
-          </article>
-
-          <article class="projects_container-article">
-            <header>
-                <img src="../images/projects3.jpg"alt="app screenshot"/>
-              <h2>Project3</h2>
-            </header>
-            <div class="projects_text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dignissimos.</p>
+            <div class="buttons_projects">
+              <button class="button_projects"><a href="">Repo</a></button>
+              <button class="button_projects"><a href="">Demo</a></button>
             </div>
-          </article>
-
-          <article class="projects_container-article">
-            <header>
-                <img src="../images/projects4.jpg"alt="app screenshot"/>
-              <h2>Project4</h2>
-            </header>
-            <div class="projects_text">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, sunt?</p>
-            </div>
-          </article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, amet tempora suscipit assumenda, debitis alias ipsum laborum, veritatis nisi vitae voluptas earum eum? A error inventore tempore tempora corporis accusamus.</p>
         </div>
-      </main>
+      </article>
+  </main>
 
 
 

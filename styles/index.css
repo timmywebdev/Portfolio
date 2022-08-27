@@ -4,9 +4,10 @@
 }
 
 .intro_img {
-    box-shadow: var(--bs);
+    box-shadow: var(--bs-around);
     align-self: center;
     max-width: 300px;
+    margin: 3rem;
 }
 
 .section_subtitle-intro {
