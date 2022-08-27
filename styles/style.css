@@ -19,6 +19,7 @@ html, body {
     /* Font Family */
     --ff-primary: 'Karla', sans-serif;
     --ff-secondary: 'Karla', monospace;
+    --ff-name: 'Source Code Pro', monospace;
 
     /* Font Weights */
     --fw-reg: 300;
@@ -37,7 +38,7 @@ html, body {
     --color-grey-t: rgba(41, 41, 41, 0.527);
 
     /* Font Sizes */
-    --fs-h1: 3rem;
+    --fs-h1: 7rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
@@ -50,15 +51,46 @@ html, body {
                 -0.5em -0.5em 0.5em rgb(113, 4, 255),
                 -0.5em 0.5em 0.5em rgb(140, 0, 255),
                 0.5em -0.5em 0.5em rgb(140, 0, 255);
+    
+    /* Typewriter */
+    --typewriterSpeed: 4s;
+    --typewriterCharacters: 15;
 }
 
 /* Media Query to auto convert fonts at ipad */
-@media (min-width: 810px) {
+@media (min-width: 949px) {
     :root {
-        --fs-h1: 4.5rem;
+        --fs-h1: 6rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
+    }
+}
+
+@media (max-width:948px){
+    :root {
+        --fs-h1: 4rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1em;
+        --fs-body: 1.125rem;
+    }
+}
+
+@media (max-width: 600px){
+    :root {
+        --fs-h1: 3rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1rem;
+        --fs-body: 0.75rem;
+    }
+}
+
+@media (max-width: 400px){
+    :root {
+        --fs-h1: 2rem;
+        --fs-h2: 1.8rem;
+        --fs-h3: 1rem;
+        --fs-body: 0.75rem;
     }
 }
 
@@ -69,7 +101,6 @@ body {
     background-color: var(--color-grey);
     color: var(--color-light);
     margin: 0;
-    font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1;
     display: flex;
@@ -92,7 +123,7 @@ header {
 }
 
 header {
-    background-color: rgb(29, 23, 23);
+    background-color: rgb(12, 12, 12);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,7 +131,7 @@ header {
 }
 
 #logo {
-    height: 5vh;
+    height: 7vh;
     border-radius: 50%;
 }
 
@@ -198,7 +229,7 @@ header {
     right: -100vw;
     box-sizing: border-box;
     transition: right 0.3s ease-in-out;
-    z-index: 998;
+    z-index: 999;
 }
 
 .nav-mobile_list {
@@ -210,10 +241,12 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+    font-family: var(--ff-primary);
 }
 
 .nav-mobile_link {
     color: inherit;
+    font-family: var(--ff-primary);
     font-weight: var(--fw-bold);
     font-size: var(--fs-h3);
     text-decoration: none;
@@ -228,6 +261,9 @@ header {
 /* Display Hamburger at iPad size and under */
 @media (min-width: 1000px) {
     .hamburger {
+        display: none;
+    }
+    #nav-mobile {
         display: none;
     }
 }
@@ -262,4 +298,102 @@ footer{
     margin-top: auto;
     flex-direction: column;
     align-items: center;
+    font-family: var(--ff-secondary);
 }
+
+/* Wiggling */
+@-webkit-keyframes wiggle {
+    10% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    20% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    30% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    40% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    60% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    70% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    80% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    90% {
+      -webkit-transform: translateX(1px) rotate(0);
+      transform: translateX(1px) rotate(0);
+    }
+    100% {
+      -webkit-transform: translateX(-1px) rotate(0);
+      transform: translateX(-1px) rotate(0);
+    }
+  }
+@keyframes wiggle {
+    10% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    20% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    30% {
+      -webkit-transform: translateX(3px) rotate(2deg);
+      transform: translateX(3px) rotate(2deg);
+    }
+    40% {
+      -webkit-transform: translateX(-3px) rotate(-2deg);
+      transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    60% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    70% {
+      -webkit-transform: translateX(2px) rotate(1deg);
+      transform: translateX(2px) rotate(1deg);
+    }
+    80% {
+      -webkit-transform: translateX(-2px) rotate(-1deg);
+      transform: translateX(-2px) rotate(-1deg);
+    }
+    90% {
+      -webkit-transform: translateX(1px) rotate(0);
+      transform: translateX(1px) rotate(0);
+    }
+    100% {
+      -webkit-transform: translateX(-1px) rotate(0);
+      transform: translateX(-1px) rotate(0);
+    }
+  }
+
+  .nav-desktop_link:hover, .nav-desktop_link:focus, .nav-desktop_link:active{
+    -webkit-animation-name: wiggle;
+    animation-name: wiggle;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }

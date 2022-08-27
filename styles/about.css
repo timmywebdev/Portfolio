@@ -1,8 +1,16 @@
 .content h1 {
     margin-left: 1rem;
-    font-size: var(--fs-h1);
+    font-size: var(--fs-h2);
     font-weight: var(--fw-bold);
-    text-shadow: var(--bw);
+    font-family: var(--ff-primary);
+  }
+
+  .section_subtitle-about a {
+    color: var(--color-light)
+  }
+
+  .section_subtitle-about a:hover{
+    color: var(--color-dark)
   }
 
   .section_subtitle-about {
@@ -14,10 +22,11 @@
   }
 
   .section_body-about {
+    font-family: var(--ff-primary);
     font-size: var(--fs-body);
     font-weight: var(--fw-reg);
     margin: 0.2rem 1rem 1rem 1rem;
-    color: vs(--color-light);
+    color: var(--color-light);
   }
   .content .slides-container {
     display: flex;
@@ -31,6 +40,7 @@
     height: 10rem;
     animation: 10s slides infinite linear;
     border-radius: 20%;
+    box-shadow: var(--bs-around)
     /* position: absolute; top: 0; left: 0; opacity: 1; */
   }
  
@@ -46,7 +56,7 @@
     .slides > *:nth-child(3) {animation-delay: 8s} */
   
   @keyframes slides {
-    from {
+    0% {
       background: url(../images/fishing1.jpeg);
       background-size: cover;
     }
@@ -58,7 +68,7 @@
       background: url("../images/fishing2.jpg");
       background-size: cover;
     }
-    to {
+    100% {
       background: url("../images/intro-background.jpg");
       background-size: cover;
     }

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&family=Source+Code+Pro:wght@300;400;700&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
-    <header>
-        <a href="index.html"><img id="logo" src="images/logo.png" alt=""></a>
+    <header class="header">
+        <a href="/index.html"><img id="logo" src="images/logo.png" alt=""></a>
         
         <!-- Navbar for Mobile -->
         <label for="trigger">
@@ -51,11 +51,12 @@
     <section class="intro" id="home">
         <p class="section_pretitle section_pretitle-intro">
             Hi, my name is </p>
-        <h1 class="section_title section_title-intro">
-            <strong>Timothy Nguyen</strong>
+        <h1 class="section_title section_title-intro" style="margin-top:1rem">
+            Timothy Nguyen.
         </h1>
         <p class="section_subtitle section_subtitle-intro">Junior Developer</p>
         <img src="images/Mugshot square.jpg" alt="timothy smiling" class="intro_img">
+        <p class="section_body section_body-intro">Email: timhnguyen98@gmail.com<br>Phone: +61421701433</p>
     </section>
 
     <!-- Footer -->
@@ -63,13 +64,13 @@
         <!-- Social Links -->
         <section id="social-links">
             <div>
-                <a href=""><img src="images/facebook.svg" alt="Facebook" /></a>
-                <a href=""><img src="images/email.svg" alt="Email" /></a>
-                <a href=""><img src="images/linkedin.svg" alt="LinkedIn" /></a>
-                <a href=""><img src="images/github.svg" alt="GitHub" /></a>
+                <a href="https://www.facebook.com/OPtimUS.PRlME/" target="_blank"><img src="images/facebook.svg" alt="Facebook" class="social-links" /></a>
+                <a href="mailto:timhnguyen98@gmail.com"><img src="images/email.svg" alt="Email" class="social-links" /></a>
+                <a href="https://www.linkedin.com/in/timothy-nguyen-60815024a/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" class="social-links" /></a>
+                <a href="https://github.com/timmywebdev" target="_blank"><img src="images/github.svg" alt="GitHub" class="social-links" /></a>
             </div>
         </section>
-        <br> <p>&copy; 2022 Timothy Nguyen</p>
+        <br> <p class="copyright">&copy; 2022 Timothy Nguyen</p>
     </footer>
 
 </body>

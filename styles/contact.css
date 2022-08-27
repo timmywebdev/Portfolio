@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: var(--ff-secondary);
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 10rem;
+}
+
+.contact-box{
+	max-width: 850px;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: var(--color-dark);
+	box-shadow: var(--bs-around);
+    padding: 25px 40px;
+}
+
+.contact-box p{
+	padding: 25px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.field:hover{
+	background-color: var(--color-accent-t);
+}
+
+textarea{
+	min-height: 150px;
+    resize: none;
+}
+
+.button_contact{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: var(--color-accent-t);
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #ae27ae;
+}
+
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		min-width: 20rem
+	}
+}
+
+@media screen and (min-width: 880px){
+    .contact-box {
+        max-width: 35rem;
+    }
+}

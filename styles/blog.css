@@ -1,32 +1,33 @@
 img {max-width: 250px;
 }
 
-.projects_img {
+.blog_img {
     display: flex;
     justify-content: center;
 }
 
-#projects_main h1 {
-    font-size: var(--fs-h2);
+#blog_main h1 {
     padding-left: 7vw;
+    font-size: var(--fs-h2);
     font-family: var(--ff-primary);
 }
 
-.projects_text {
+.blog_text {
+    font-family: var(--ff-primary);
     display: flex;
     justify-content: center;
 }
 
 
-#projects_container {
+#blog_container {
+    font-family: var(--ff-primary);
     display: flex;
     flex-wrap: wrap;
     padding-left: 3rem;
     padding-right: 3rem;
-    font-family: var(--ff-primary);
 }
 
-.projects_article {
+.blog_article {
     padding: 1rem 2rem 1rem 2rem;
     background-color: var(--color-dark);
     border-color: var(--color-light);
@@ -35,7 +36,7 @@ img {max-width: 250px;
     box-shadow: var(--bs-around);
 }
 
-.button_projects {
+.button_blog {
     background-color: #252525; 
     padding: 0.2rem;
     margin: 0.4rem;
@@ -44,24 +45,24 @@ img {max-width: 250px;
     font-family: var(--ff-secondary);
 }
 
-.button_projects a{
+.button_blog a{
     color: var(--color-light);
     text-decoration: none;
 }
 
-.buttons_projects{
+.buttons_blog{
     display: flex;
     justify-content: space-evenly;
 }
 
-.button_projects:hover {
+.button_blog:hover {
     background-color: #564caf;
-    color: rgb(134, 134, 134);
+    color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@media(min-width: 820px) {
-    #projects_container {
+@media screen and (min-width: 820px) {
+    #blog_container {
         display: flex;
         flex-direction: row;
         flex: wrap;
@@ -69,21 +70,28 @@ img {max-width: 250px;
         margin: 1rem;
     }
 
-    .projects_article {
+    .blog_article {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         flex: 1 1 30%;
-        margin: 1rem;     
+        margin: 2rem;     
     }
-    
     
 }
 
-@media (max-width: 819px) {
-    .projects_article { 
-        margin: 1rem;
+@media screen and (max-width: 819px) {
+    .blog_article { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 30%;
+        margin: 2rem;  
     }
-    #projects_container :nth-child(4) {order:-1;};
+
+    .blog_article img{
+        max-width: 13rem;
+    }
 }

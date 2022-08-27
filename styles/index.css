@@ -24,33 +24,52 @@
     justify-content: center;
 }
 
+.section_body-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ff-secondary);
+}
+
 
 /* Typography */
 h1 {
-    line-height: 1.5;
-    margin: 0;
+    /* font-family: var(--ff-name);
+    font-size: var(--fs-h1);
+    display:flex;
+    justify-content: center; */
+    /* font-size: clamp(1rem, 3vw + 1rem, 4rem); */
+    position: relative;
+    font-family: var(--ff-name);
+    position: relative;
+    width: max-content;
+    font-size: var(--fs-h1);
+    line-height: 1.2;    
 }
 
-h1 {font-size: var(--fs-h1)};
-h2 {font-size: var(--fs-h2)};
+h2 {
+    font-size: var(--fs-h2);
+    font-family: var(--ff-secondary)
+
+};
 h3 {font-size: var(--fs-h3)};
 
 
 .section_title {
-    margin-bottom: .25em;
+    display:flex;
+    justify-content: center;
 }
 
 .section_pretitle-intro {
     font-weight: var(--fw-reg);
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-h3);
 }
 
 .section_subtitle-intro {
     font-weight: var(--fw-reg);
 }
 
-.section_subtitle-intro strong{
-    display: block;
-}
 
 .section_subtitle {
     margin: 0;
@@ -62,4 +81,76 @@ h3 {font-size: var(--fs-h3)};
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+}
+
+.section_body-intro {
+    font-family: var(--ff-secondary);
+    font-weight: var(--ff-reg)
+}
+
+/* Typewriter Animation */
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1::before {
+  background: var(--color-grey);
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+h1::after {
+  width: 0.125em;
+  background: rgb(255, 255, 255);
+  animation: typewriter var(--typewriterSpeed)
+            steps(var(--typewriterCharacters)) 1s forwards,
+            blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+.section_subtitle-intro, .intro_img, .section_body-intro, .social-links, .copyright {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
+  }
+
+.section_pretitle-intro {
+    opacity: 0;
+    transform: translateY(-3rem);
+    animation: fadeInUp 2s ease forwards;
+}
+
+.header {
+    opacity: 0;
+    transform: translateY(-3rem);
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
+    z-index: 999;
+}
+
+@keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+@keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+@keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.social-links:hover {
+    
 }
