@@ -28,7 +28,7 @@ The website is fully semantic, accessible and responsive between mobile, tablet 
 ## Sitemap
 Created using FigJam.
 
-![Site Map](/docs/sitemap.PNG "Site Map")
+![Site Map](/docs/sitemap.png "Site Map")
 
 ---
 
@@ -36,72 +36,72 @@ Created using FigJam.
 
 ### Index page:
 
-![Index Page Wireframe](/docs/index-wireframe.PNG "Index Page Wireframe")
+![Index Page Wireframe](/docs/index-wireframe.png "Index Page Wireframe")
 
-![Index Page](/docs/index-ss.PNG "Index Page")
+![Index Page](/docs/index-ss.png "Index Page")
 
-![Index Page](/docs/index-ss-mobile.PNG "Index Mobile")
+![Index Page](/docs/index-ss-mobile.png "Index Mobile")
 
-![Index Page](/docs/index-ss-ipad.PNG "Index iPad")
+![Index Page](/docs/index-ss-ipad.png "Index iPad")
 
-![Index Page](/docs/nav-ss-mobile.PNG "Nav mobile")
+![Index Page](/docs/nav-ss-mobile.png "Nav mobile")
 
-![Index Page](/docs/nav-ss-ipad.PNG "Nav iPad")
+![Index Page](/docs/nav-ss-ipad.png "Nav iPad")
 
 ### About page:
 
-![About Page Wireframe](/docs/about-wireframe.PNG "Index Page Wireframe")
+![About Page Wireframe](/docs/about-wireframe.png "Index Page Wireframe")
 
-![About Page](/docs/about-ss.PNG "Index Page")
+![About Page](/docs/about-ss.png "Index Page")
 
-![About Page](/docs/about-ss-mobile.PNG "Index Mobile")
+![About Page](/docs/about-ss-mobile.png "Index Mobile")
 
-![About Page](/docs/about-ss-iPad.PNG "Index iPad")
+![About Page](/docs/about-ss-iPad.png "Index iPad")
 
 ### Projects page:
 
-![Projects Page Wireframe](/docs/projects-wireframe.PNG "Projects Page Wireframe")
+![Projects Page Wireframe](/docs/projects-wireframe.png "Projects Page Wireframe")
 
-![Projects Page](/docs/projects-ss.PNG "Projects Page")
+![Projects Page](/docs/projects-ss.png "Projects Page")
 
-![Projects Page](/docs/projects-ss-mobile.PNG "Projects Mobile")
+![Projects Page](/docs/projects-ss-mobile.png "Projects Mobile")
 
-![Projects Page](/docs/projects-ss-iPad.PNG "Projects iPad")
+![Projects Page](/docs/projects-ss-iPad.png "Projects iPad")
 
 ### Contact page:
 
-![Contact Page Wireframe](/docs/contact-wireframe.PNG "Contact Page Wireframe")
+![Contact Page Wireframe](/docs/contact-wireframe.png "Contact Page Wireframe")
 
-![Contact Page](/docs/contact-ss.PNG "Contact Page")
+![Contact Page](/docs/contact-ss.png "Contact Page")
 
-![Contact Page](/docs/contact-ss-mobile.PNG "Contact Mobile")
+![Contact Page](/docs/contact-ss-mobile.png "Contact Mobile")
 
-![Contact Page](/docs/contact-ss-iPad.PNG "Contact iPad")
+![Contact Page](/docs/contact-ss-iPad.png "Contact iPad")
 
 ### Blogs page:
 
-![Blogs Page Wireframe](/docs/blog-wireframe.PNG "Blogs Page Wireframe")
+![Blogs Page Wireframe](/docs/blog-wireframe.png "Blogs Page Wireframe")
 
-![Blogs Page](/docs/blog-ss.PNG "Blogs Page")
+![Blogs Page](/docs/blog-ss.png "Blogs Page")
 
-![Blogs Page](/docs/blog-ss-mobile.PNG "Blogs Mobile")
+![Blogs Page](/docs/blog-ss-mobile.png "Blogs Mobile")
 
-![Blogs Page](/docs/blog-ss-iPad.PNG "Blogs iPad")
+![Blogs Page](/docs/blog-ss-iPad.png "Blogs iPad")
 
 ### Blog post page:
 
-![Blogpost Page Wireframe](/docs/blogpost-wireframe.PNG "Blogpost Page Wireframe")
+![Blogpost Page Wireframe](/docs/blogpost-wireframe.png "Blogpost Page Wireframe")
 
-![Blogpost Page](/docs/blogpost-ss.PNG "Blogpost Page")
+![Blogpost Page](/docs/blogpost-ss.png "Blogpost Page")
 
-![Blogpost Page](/docs/blogpost-ss-mobile.PNG "Blogpost Mobile")
+![Blogpost Page](/docs/blogpost-ss-mobile.png "Blogpost Mobile")
 
-![Blogpost Page](/docs/blogpost-ss-iPad.PNG "Blogpost iPad")
+![Blogpost Page](/docs/blogpost-ss-iPad.png "Blogpost iPad")
 
 ---
 
 ## Technology Stack
 
-- Wireframes/sitemap: Figma
+- Wireframes/sitemap: Figma, FigJam
 - Website: HTML5 & CSS3
 - Deployment: Netlify
