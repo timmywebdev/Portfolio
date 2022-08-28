@@ -56,7 +56,7 @@ Created using FigJam.
 
 ![About Page](/docs/about-ss-mobile.png "Index Mobile")
 
-![About Page](/docs/about-ss-iPad.png "Index iPad")
+![About Page](/docs/about-ss-ipad.png "Index iPad")
 
 ### Projects page:
 
