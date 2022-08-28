@@ -15,18 +15,18 @@ The portfolio website showcases my background, projects and capabilities and was
 ---
 
 ## Functionality/Features
-The website is fully semantic, accessible and respsonsive between mobile, tablet and desktop screens. It has a simple, minimalistic theme with limited but meaningful usage of colour and animation to effectively draw the users' attention to the information conveyed. It features 5 pages: 
+The website is fully semantic, accessible and responsive between mobile, tablet and desktop screens. It has a simple theme but I have added some animations to spice it up. It features 5 pages: 
 
-- Index/home: Introductory page showing what I feel is the most important information - my name, portrait, contact information and links to professional and social accounts.
-- About: Page displaying my personal story, past study and work history and hobbies and interests as well as my resume.
-- Projects: Page to showcase my past projects and as a result, skillset and technology competency.
-- Contact: Page used as a form to contact me
-- Blogs: Page that includes links to 5 additional blog post pages. 
+- Index/home: Introductory page highlights my name and my picture. It also has my phone number and email address. I have added some animations to highlight my name and make the website unique.
+- About: Page used to talk about myself, my past work with my resume as well as my hobbies.
+- Projects: This page showcases my previous work to show competency and my skillset.
+- Contact: This page is used as a form to contact me.
+- Blogs: This page is a list of 5 blogs with links to read further.
 
 ---
 
 ## Sitemap
-Created using Balsamiq Wireframes.
+Created using FigJam.
 
 ![Site Map](/docs/sitemap.PNG "Site Map")
 
@@ -36,39 +36,67 @@ Created using Balsamiq Wireframes.
 
 ### Index page:
 
-![Index Page Wireframe](/docs/wireframes-index.PNG "Index Page Wireframe")
+![Index Page Wireframe](/docs/index-wireframe.PNG "Index Page Wireframe")
 
-![Index Page](/docs/index-full.PNG "Index Page")
+![Index Page](/docs/index-ss.PNG "Index Page")
+
+![Index Page](/docs/index-ss-mobile.PNG "Index Mobile")
+
+![Index Page](/docs/index-ss-ipad.PNG "Index iPad")
+
+![Index Page](/docs/nav-ss-mobile.PNG "Nav mobile")
+
+![Index Page](/docs/nav-ss-ipad.PNG "Nav iPad")
 
 ### About page:
 
-![About Page Wireframe](docs/wireframes-about.PNG "About Page Wireframe")
+![About Page Wireframe](/docs/about-wireframe.PNG "Index Page Wireframe")
 
-![About Page](/docs/about-full.PNG "About Page")
+![About Page](/docs/about-ss.PNG "Index Page")
+
+![About Page](/docs/about-ss-mobile.PNG "Index Mobile")
+
+![About Page](/docs/about-ss-iPad.PNG "Index iPad")
 
 ### Projects page:
 
-![Projects Page Wireframe](/docs/wireframes-projects.PNG "Projects Page Wireframe")
+![Projects Page Wireframe](/docs/projects-wireframe.PNG "Projects Page Wireframe")
 
-![Projects Page](/docs/projects-full.PNG "Projects Page")
+![Projects Page](/docs/projects-ss.PNG "Projects Page")
+
+![Projects Page](/docs/projects-ss-mobile.PNG "Projects Mobile")
+
+![Projects Page](/docs/projects-ss-iPad.PNG "Projects iPad")
 
 ### Contact page:
 
-![Contact Page Wireframe](/docs/wireframes-projects.PNG "Projects Page Wireframe")
+![Contact Page Wireframe](/docs/contact-wireframe.PNG "Contact Page Wireframe")
 
-![Contact Page](/docs/projects-full.PNG "Projects Page")
+![Contact Page](/docs/contact-ss.PNG "Contact Page")
+
+![Contact Page](/docs/contact-ss-mobile.PNG "Contact Mobile")
+
+![Contact Page](/docs/contact-ss-iPad.PNG "Contact iPad")
 
 ### Blogs page:
 
-![Blogs Page Wireframe](/docs/wireframes-blogs.PNG "Blogs Page Wireframe")
+![Blogs Page Wireframe](/docs/blog-wireframe.PNG "Blogs Page Wireframe")
 
-![Blogs](/docs/blogs-full.PNG "Blogs Page")
+![Blogs Page](/docs/blog-ss.PNG "Blogs Page")
+
+![Blogs Page](/docs/blog-ss-mobile.PNG "Blogs Mobile")
+
+![Blogs Page](/docs/blog-ss-iPad.PNG "Blogs iPad")
 
 ### Blog post page:
 
-![Blog Post Page Wireframe](/docs/wireframes-blog-posts.PNG "Blog Post Page Wireframe")
+![Blogpost Page Wireframe](/docs/blogpost-wireframe.PNG "Blogpost Page Wireframe")
 
-![Blog Post](/docs/blog-post-full.PNG "Blog Post Page")
+![Blogpost Page](/docs/blogpost-ss.PNG "Blogpost Page")
+
+![Blogpost Page](/docs/blogpost-ss-mobile.PNG "Blogpost Mobile")
+
+![Blogpost Page](/docs/blogpost-ss-iPad.PNG "Blogpost iPad")
 
 ---
 
