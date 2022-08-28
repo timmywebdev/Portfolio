@@ -6,7 +6,9 @@
 
 ## [Github Repo](https://github.com/timmywebdev/TimothyNguyen_T1A2)
 
-## [Presentation Video]()
+## [Presentation Video](https://www.youtube.com/watch?v=-LGK8Qy-8ks)
+
+## [Slide Deck](/ppt/slidedeck.pdf)
 
 ---
 
