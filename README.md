@@ -66,7 +66,7 @@ Created using FigJam.
 
 ![Projects Page](/docs/projects-ss-mobile.png "Projects Mobile")
 
-![Projects Page](/docs/projects-ss-iPad.png "Projects iPad")
+![Projects Page](/docs/projects-ss-ipad.png "Projects iPad")
 
 ### Contact page:
 
@@ -76,7 +76,7 @@ Created using FigJam.
 
 ![Contact Page](/docs/contact-ss-mobile.png "Contact Mobile")
 
-![Contact Page](/docs/contact-ss-iPad.png "Contact iPad")
+![Contact Page](/docs/contact-ss-ipad.png "Contact iPad")
 
 ### Blogs page:
 
@@ -86,7 +86,7 @@ Created using FigJam.
 
 ![Blogs Page](/docs/blog-ss-mobile.png "Blogs Mobile")
 
-![Blogs Page](/docs/blog-ss-iPad.png "Blogs iPad")
+![Blogs Page](/docs/blog-ss-ipad.png "Blogs iPad")
 
 ### Blog post page:
 
@@ -96,7 +96,7 @@ Created using FigJam.
 
 ![Blogpost Page](/docs/blogpost-ss-mobile.png "Blogpost Mobile")
 
-![Blogpost Page](/docs/blogpost-ss-iPad.png "Blogpost iPad")
+![Blogpost Page](/docs/blogpost-ss-ipad.png "Blogpost iPad")
 
 ---
 
