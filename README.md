@@ -6,6 +6,8 @@
 
 ## [Github Repo](https://github.com/timmywebdev/TimothyNguyen_T1A2)
 
+## [Presentation Video]()
+
 ---
 
 ## Purpose and Target Audience
@@ -40,23 +42,11 @@ Created using FigJam.
 
 ![Index Page](/docs/index-ss.png "Index Page")
 
-![Index Page](/docs/index-ss-mobile.png "Index Mobile")
-
-![Index Page](/docs/index-ss-ipad.png "Index iPad")
-
-![Index Page](/docs/nav-ss-mobile.png "Nav mobile")
-
-![Index Page](/docs/nav-ss-ipad.png "Nav iPad")
-
 ### About page:
 
 ![About Page Wireframe](/docs/about-wireframe.png "Index Page Wireframe")
 
 ![About Page](/docs/about-ss.png "Index Page")
-
-![About Page](/docs/about-ss-mobile.png "Index Mobile")
-
-![About Page](/docs/about-ss-ipad.png "Index iPad")
 
 ### Projects page:
 
@@ -64,19 +54,11 @@ Created using FigJam.
 
 ![Projects Page](/docs/projects-ss.png "Projects Page")
 
-![Projects Page](/docs/projects-ss-mobile.png "Projects Mobile")
-
-![Projects Page](/docs/projects-ss-ipad.png "Projects iPad")
-
 ### Contact page:
 
 ![Contact Page Wireframe](/docs/contact-wireframe.png "Contact Page Wireframe")
 
 ![Contact Page](/docs/contact-ss.png "Contact Page")
-
-![Contact Page](/docs/contact-ss-mobile.png "Contact Mobile")
-
-![Contact Page](/docs/contact-ss-ipad.png "Contact iPad")
 
 ### Blogs page:
 
@@ -84,19 +66,11 @@ Created using FigJam.
 
 ![Blogs Page](/docs/blog-ss.png "Blogs Page")
 
-![Blogs Page](/docs/blog-ss-mobile.png "Blogs Mobile")
-
-![Blogs Page](/docs/blog-ss-ipad.png "Blogs iPad")
-
 ### Blog post page:
 
 ![Blogpost Page Wireframe](/docs/blogpost-wireframe.png "Blogpost Page Wireframe")
 
 ![Blogpost Page](/docs/blogpost-ss.png "Blogpost Page")
-
-![Blogpost Page](/docs/blogpost-ss-mobile.png "Blogpost Mobile")
-
-![Blogpost Page](/docs/blogpost-ss-ipad.png "Blogpost iPad")
 
 ---
 
