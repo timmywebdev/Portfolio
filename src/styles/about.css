@@ -46,19 +46,19 @@
   
   @keyframes slides {
     0% {
-      background: url(/src/images/fishing1.jpeg);
+      background: url(/images/fishing1.jpeg);
       background-size: cover;
     }
     33% {
-      background: url("/src/images/theboys.jpg");
+      background: url("/images/theboys.jpg");
       background-size: cover;
     }
     66% {
-      background: url("/src/images/fishing2.jpg");
+      background: url("/images/fishing2.jpg");
       background-size: cover;
     }
     100% {
-      background: url("/src/images/intro-background.jpg");
+      background: url("/images/intro-background.jpg");
       background-size: cover;
     }
   }
